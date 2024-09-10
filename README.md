@@ -5,11 +5,13 @@ An application that return a random color in the command line.
 ```
 node index.js
 ```
+
 <img width="510" alt="Screenshot 2024-09-10 at 14 35 55" src="https://github.com/user-attachments/assets/43b9f454-02cf-4e9c-b01b-7232ab65fff3">
 
 ```
 node index.js
 ```
+
 <img width="504" alt="Screenshot 2024-09-10 at 14 36 02" src="https://github.com/user-attachments/assets/f846ab72-2daf-4c5b-a5b9-11d4e01ef68c">
 
 It should also be able to accept the request for hue (eg. green) and luminosity (eg. dark):
@@ -17,9 +19,21 @@ It should also be able to accept the request for hue (eg. green) and luminosity 
 ```
 node index.js red
 ```
+
 <img width="511" alt="Screenshot 2024-09-10 at 14 36 09" src="https://github.com/user-attachments/assets/e049eb47-1033-46e5-9213-841ea5f10912">
 
 ```
 node index.js blue dark
 ```
+
 <img width="508" alt="Screenshot 2024-09-10 at 14 36 15" src="https://github.com/user-attachments/assets/82feafe4-4597-497a-84a5-0be5bde8f618">
+
+TODO:
+
+- [x] figure out how to print a block of 31x9 `#` characters
+- [x] figure out how to return a random color
+- [x] figure out how to return the name of the random hex code color
+- [ ] figure out how to return the '#' block colored with the random color
+
+- [ ] figure out how to accept a request for hue (eg. green,red,blue) and luminosity (eg. light, dark)
+- [ ] figure out how to generate random colors that match those choices
