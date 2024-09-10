@@ -33,7 +33,6 @@ TODO:
 - [x] figure out how to print a block of 31x9 `#` characters
 - [x] figure out how to return a random color
 - [x] figure out how to return the name of the random hex code color
-- [ ] figure out how to return the '#' block colored with the random color
-
-- [ ] figure out how to accept a request for hue (eg. green,red,blue) and luminosity (eg. light, dark)
-- [ ] figure out how to generate random colors that match those choices
+- [x] figure out how to return the '#' block colored with the random color
+- [x] figure out how to accept a request for hue (eg. green,red,blue) and luminosity (eg. light, dark)
+- [x] figure out how to generate random colors that match those choices
